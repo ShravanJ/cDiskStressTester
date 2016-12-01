@@ -9,7 +9,7 @@ I wrote jDiskStressTester during my senior year in high school when I was primar
 cDiskStressTester vs jDiskStressTester
 ======================================
 cDiskStressTester
-~~~~~~~~~~~~~~~~~
+<--------------->
 -Uses seperate class for file creation
 
 -Uses ctime clock for calculation how long it took to create the files
@@ -17,7 +17,7 @@ cDiskStressTester
 -Uses raw file stream objects for creating the files
 
 jDiskStressTester
-~~~~~~~~~~~~~~~~~
+<---------------->
 -Runs the file creation and prompting in same class
 
 -Uses systemTimeMilis (time from epoch) to calculate how long it took to create the files
