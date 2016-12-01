@@ -9,6 +9,7 @@ I wrote jDiskStressTester during my senior year in high school when I was primar
 cDiskStressTester vs jDiskStressTester
 ======================================
 cDiskStressTester
+
 <--------------->
 
 *Uses seperate class for file creation
@@ -19,6 +20,7 @@ cDiskStressTester
 
 
 jDiskStressTester
+
 <---------------->
 
 *Runs the file creation and prompting in same class
