@@ -10,19 +10,22 @@ cDiskStressTester vs jDiskStressTester
 ======================================
 cDiskStressTester
 <--------------->
--Uses seperate class for file creation
 
--Uses ctime clock for calculation how long it took to create the files
+*Uses seperate class for file creation
 
--Uses raw file stream objects for creating the files
+*Uses ctime clock for calculation how long it took to create the files
+
+*Uses raw file stream objects for creating the files
+
 
 jDiskStressTester
 <---------------->
--Runs the file creation and prompting in same class
 
--Uses systemTimeMilis (time from epoch) to calculate how long it took to create the files
+*Runs the file creation and prompting in same class
 
--Uses PrintWriter object for creating the files
+*Uses systemTimeMilis (time from epoch) to calculate how long it took to create the files
+
+*Uses PrintWriter object for creating the files
 
 
 Overall, cDiskStressTester seems to be a bit faster and more accurate with the file creation time reporting. I will do some more testing between the two and report back here later.
