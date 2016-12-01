@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1480562654 source:c:\users\shravan\desktop\independent projects\cdiskstresstester\main.cpp
+	<iostream>
+	<ctime>
+	<sstream>
+	"FileCreator.h"
+
+1480562704 c:\users\shravan\desktop\independent projects\cdiskstresstester\include\filecreator.h
+	<fstream>
+	<string>
+
+1480562704 source:c:\users\shravan\desktop\independent projects\cdiskstresstester\src\filecreator.cpp
+	"FileCreator.h"
+
